@@ -1,0 +1,27 @@
+# ignore all by default
+/*
+
+# do not ignore:
+!.ctags
+!.gemrc
+!.gitignore
+!.gitignore-global
+!.tmux-colors
+!.vimrc
+!Brewfile
+!/.config/
+.config/*
+# fish
+!/.config/fish
+/.config/fish/*
+!/.config/fish/*.fish
+!/.config/fish/config.fish
+# nvim
+!/.config/nvim
+/.config/nvim/*
+!.config/nvim/init.vim
+# pgcli
+!/.config/pgcli
+/.config/pgcli/*
+!.config/pgcli/config
+

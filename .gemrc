@@ -1,0 +1,5 @@
+---
+gem: --no-document
+backtrace: false
+verbose: true
+benchmark: false
