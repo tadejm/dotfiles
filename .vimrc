@@ -13,7 +13,7 @@ Plug 'ecomba/vim-ruby-refactoring'
 Plug 'elzr/vim-json'
 Plug 'itchyny/lightline.vim'
 Plug 'janko-m/vim-test'
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
