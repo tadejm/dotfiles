@@ -6,6 +6,7 @@
 !.gemrc
 !.gitignore
 !.gitignore-global
+!.tmux.conf
 !.tmux-colors
 !.vimrc
 !Brewfile
