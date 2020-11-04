@@ -6,18 +6,17 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'alvan/vim-closetag'
 Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'cyphactor/vim-open-alternate'
 Plug 'dag/vim-fish'
 Plug 'dsawardekar/ember.vim'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'elzr/vim-json'
 Plug 'itchyny/lightline.vim'
 Plug 'janko-m/vim-test'
-" Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 Plug 'rorymckinley/vim-rubyhash'
+Plug 'sickill/vim-monokai'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
@@ -30,10 +29,8 @@ Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'w0rp/ale'
 Plug 'yalesov/vim-emblem'
-Plug 'sickill/vim-monokai'
 
 " Staging
-" Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -216,7 +213,7 @@ augroup reload_vimrc
 augroup END
 
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'jellybeans',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
